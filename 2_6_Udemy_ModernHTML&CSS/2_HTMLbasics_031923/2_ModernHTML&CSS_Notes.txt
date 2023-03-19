@@ -1,0 +1,39 @@
+2_1: Section Intro
+	Absolute Beginners
+		- The content in this section is for absolute beginners
+		- Feel free to skip this section if you are comfortable with HTML markup
+
+	What We Will Cover
+		- What is HTML?
+		- Tags & Attributes
+		- Page Structure
+		- Meta Tags
+		- VSCode Live Server Setup
+		- Keyboard Shortcuts
+		- Forms & Input
+		- Links & Images
+		- Tables & Lis ts
+		- Block vs Inline
+		- Div, Span, ID, Class
+		- HTML Entities
+		- HTML5 Semantic Tags
+
+	HTML Sandbox
+		- Set of files for each lecture
+		- Keep as a resource to go back to if needed
+		- The start and finished zip files are included
+		- HTML without CSS is UGLY!
+
+2_2: Create & Open HTML Pages
+	Tag Syntax
+		- Elements surrounded in angle brackets
+		- Usually have a start & end tag
+		- Some tags close themselves (Remnant of XHTML)
+		- Example:
+			- Start & End Tag:
+				- <h1>Hello</h1>
+				- <p>Welcome to my website</p>
+			- Self Closing Tags
+				- <br> (Valid in HTML5)
+				- <br /> (Valid in HTML5 & XHTML)
+
