@@ -1,0 +1,57 @@
+3_1: Section Intro
+	The Goal
+		- We will look at fundamental CSS properties
+		- The goal is to get you to really understand what is going on rather than just create a website and have you follow along
+	What We Will Cover
+		- Implementing CSS
+		- Using Selectors
+		- Fonts, Colors, etc
+		- Backgrounds & Borders
+		- Box Model / Margin & Padding
+		- Floating & Alignment
+		- Display Property
+		- Link & Button Styling
+		- Creating Menus
+		- Positioning
+		- Form Styling
+		- Dev Tools
+	CSS Sandbox
+		- Set of files for each lecture
+		- Keep as a resource to go back to if needed
+		- The start and finished zip files are included
+		- After this section we will put it together.
+
+3_2: Implementing CSS
+	CSS Syntax
+		- IMG1.PNG
+
+3_4: Fonts In CSS
+	Web Safe Fonts
+		- IMG2.PNG
+	CSS Units: Absolute
+		- cm : Centimeters
+		- mm : Millimeters
+		- in : Inches
+		- px : Pixels(1px = 1/96th of 1in)
+		- pt : Points(1px = 1/72 of 1in)
+		- pc : Picas picas(1pc = 12 pt)
+	CSS Units: Relative
+		- % : To parent element
+		- em : To font-size of parent element
+		- rem : To font size of root element
+		- vw : To 1% of viewport width
+		- vh : To 1% of viewport height
+
+3_5: Color Types
+	- https://www.color-hex.com/
+	- https://htmlcolorcodes.com/
+
+3_12: Positioning
+	Position Values
+		- Static : Not effected by tblr(top, bottom, left, right) properties/values
+		- Relative : tblr values cause element to be moved from its normal position
+		- Absolute : Positioned relative to its parent element that is postioned "relative"
+		- Fixed : Positioned relative to the viewport
+		- Sticky : Positioned based on scroll position
+
+
