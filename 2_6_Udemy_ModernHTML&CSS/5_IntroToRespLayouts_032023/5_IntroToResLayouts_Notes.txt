@@ -1,0 +1,15 @@
+5_1: What Is Responsive Design?
+	- Responsive Design
+		- Using HTML/CSS to make a website or app layout adapt to different screen sizes
+		* It is a necessity to build responsive layouts
+		* Layouts should render on any form factor
+	- Practices To Use
+		- Set the viewport / scale
+		- Use fluid widths as oppose to fixed
+		- Media queries: Different css styling for different screen sizes
+		- Rem units over px
+		- Mobile first method
+	
+
+
+
