@@ -1,0 +1,27 @@
+11_1: What Is CSS Grid?
+	- What Is CSS Grid?
+		- Grid layout system for CSS
+		- Similar to flexbox (more powerful but a bit more difficult)
+		- Two-dimensional layouts
+		- Can use "align-items", "justify-content", etc
+		- Partial support for IE11
+	- How It Works
+		- display: grid; */ Creates a "grid" */
+		- All direct child elements are "grid items"
+		- "grid-template-columns" defines width and number of cols
+		- IMG1.PNG
+	- Two Dimensional Layouts
+		- IMG2.PNG
+	- Spanning Rows & Columns
+		- IMG3.PNG
+	- Grid vs Flex
+		- It is NOT one or the other!
+		- Use CSS Grid for outter elements and grid-like layouts
+		- Use Flex for simple alignment (Inner elements, menu items, etc)
+		- Most of the stuff we have done so far, I would use flex
+
+
+	
+
+
+
