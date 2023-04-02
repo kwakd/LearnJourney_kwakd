@@ -1,0 +1,5 @@
+# https://www.youtube.com/watch?v=wgkC8SxraAQ
+xh = input("Enter Hours: ")
+xr  = input("Enter Rate: ")
+xp = float(xh) * float(xr)
+print("Pay:" ,xp)
