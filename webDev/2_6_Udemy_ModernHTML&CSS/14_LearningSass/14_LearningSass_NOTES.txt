@@ -1,0 +1,27 @@
+14_1: What Is Sass?
+	- What Is Sass?
+		- Syntactically Awesome StyleSheets
+		- CSS Proprocessor / Precompiler
+		- Enhances the functionality of CSS
+		- Other preprocessors include Less and Stylus
+	- How Does Sass Work?
+		- Sass uses .scss or .sass file extensions
+		- The browser does NOT read Sass, it must be compiled
+		- Sass files are compiled to normal CSS files
+		- There are many different types of Sass compilers (cli & gui)
+	- What Does Sass Offer?
+		- Variables
+		- Nesting
+		- Partials / Imports
+		- Functions & Mixins
+	- .scss vs .sass
+		- .scss is usually preferred over .sass as it uses the same syntax as regular css
+		- IMG01.png
+
+
+
+
+	
+
+
+
