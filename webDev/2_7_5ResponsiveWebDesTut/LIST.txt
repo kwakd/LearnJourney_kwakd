@@ -1,0 +1,27 @@
+(NO PARTICULAR ORDER)(PICK 5 MAYBE MORE)
+
+A. Build a Starbucks Landing Page Clone (HTML/CSS)
+https://www.youtube.com/watch?v=x_n2FGNsm0o
+
+B. Create a Website With Video Background (HTML/CSS)
+https://www.youtube.com/watch?v=8MgpE2DTTKA
+
+C. Hulu Webpage Clone (HTML/CSS)
+https://www.youtube.com/watch?v=9OVLaEjY-Rc
+
+D. Build a Music Player (HTML/CSS/Javascript/HTML5 Audio API) (04/11/23)
+https://www.youtube.com/watch?v=QTHRWGn_sJw
+***NOTE: for more practice also change background color depending on song along with having a text for timestamp for song.
+
+E. Create Agency Website From Scratch (HTML/CSS)
+https://www.youtube.com/watch?v=lvYnfMOUOJY
+
+F. Breathe & Relax App (JavaScript/CSS) (MAYBE NOT)
+https://www.youtube.com/watch?v=l-1ZrU6avzI
+
+G. Build a Modern Landing Page Website (HTML/CSS)
+https://www.youtube.com/watch?v=X1dz0xRbSJc
+
+
+MAYBE
+https://www.youtube.com/watch?v=JkeyKeK3V24
