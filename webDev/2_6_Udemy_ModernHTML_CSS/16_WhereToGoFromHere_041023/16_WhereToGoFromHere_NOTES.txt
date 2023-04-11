@@ -1,0 +1,19 @@
+16_Where To Go From Here?
+	- Congrats!!!
+		- Congrats and thank you for making it all the way through this course. I really hope you enjoyed it.
+		- Making it through a course this long is a real accomplishment.
+
+	- Where To Go Next...
+		- Build your own projects based on what you have learned.
+		- Learn JavaScript
+		- May want to learn Boostrap or another CSS framework
+		- Code everyday
+		- Stay driven
+
+
+
+
+	
+
+
+
