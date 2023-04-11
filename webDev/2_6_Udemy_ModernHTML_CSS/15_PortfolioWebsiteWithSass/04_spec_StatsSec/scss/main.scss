@@ -152,26 +152,27 @@ img
                     font-size: 1.5rem;
                 }
 
-                &stats-number
+                &.stats-number
                 {
                     font-size: 2rem;
                     font-weight: bold;
                 }
             }
-        }
+        
 
-        div
-        {
-            padding: 3rem 0;
+            div
+            {
+                padding: 3rem 0;
 
-            &:nth-child(odd)
-            {
-                background: $light-color;
+                &:nth-child(odd)
+                {
+                    background: $light-color;
+                }
+                &:nth-child(even)
+                {
+                    background: $medium-color;
+                }
             }
-            &:nth-child(even)
-            {
-                background: $medium-color;
-            }
-        }
-    }
+        }    
+    }   
 }
