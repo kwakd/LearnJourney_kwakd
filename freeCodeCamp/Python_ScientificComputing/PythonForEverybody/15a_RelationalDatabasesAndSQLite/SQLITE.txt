@@ -1,0 +1,10 @@
+- https://www.youtube.com/watch?v=QlNod5-kFpA
+
+Download SQLite
+- https://www.sqlite.org/download.html
+
+Download DB Browser for SQLite
+- https://sqlitebrowser.org/dl/
+
+SQLite Usage
+- https://www.sqlite.org/famous.html

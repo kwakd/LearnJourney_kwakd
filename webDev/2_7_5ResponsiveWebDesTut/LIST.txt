@@ -1,6 +1,6 @@
 (NO PARTICULAR ORDER)(PICK 5 MAYBE MORE)
 
-A. Build a Starbucks Landing Page Clone (HTML/CSS)
+A. Build a Starbucks Landing Page Clone (HTML/CSS) (04/12/23) 
 https://www.youtube.com/watch?v=x_n2FGNsm0o
 
 B. Create a Website With Video Background (HTML/CSS)
