@@ -3,7 +3,7 @@
 A. Build a Starbucks Landing Page Clone (HTML/CSS) (04/12/23) 
 https://www.youtube.com/watch?v=x_n2FGNsm0o
 
-B. Create a Website With Video Background (HTML/CSS)
+B. Create a Website With Video Background (HTML/CSS) (04/12/23) 
 https://www.youtube.com/watch?v=8MgpE2DTTKA
 
 C. Hulu Webpage Clone (HTML/CSS)
