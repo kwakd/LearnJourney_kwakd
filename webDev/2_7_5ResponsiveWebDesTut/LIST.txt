@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=x_n2FGNsm0o
 B. Create a Website With Video Background (HTML/CSS) (04/12/23) 
 https://www.youtube.com/watch?v=8MgpE2DTTKA
 
-C. Hulu Webpage Clone (HTML/CSS)
+C. Hulu Webpage Clone (HTML/CSS) (04/14/23) 
 https://www.youtube.com/watch?v=9OVLaEjY-Rc
 
 D. Build a Music Player (HTML/CSS/Javascript/HTML5 Audio API) (04/11/23) 
