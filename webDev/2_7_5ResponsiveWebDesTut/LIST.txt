@@ -13,7 +13,7 @@ D. Build a Music Player (HTML/CSS/Javascript/HTML5 Audio API) (04/11/23)
 https://www.youtube.com/watch?v=QTHRWGn_sJw
 ***NOTE: for more practice also change background color depending on song along with having a text for timestamp for song.
 
-E. Create Agency Website From Scratch (HTML/CSS)
+E. Create Agency Website From Scratch (HTML/CSS) (04/18/23)
 https://www.youtube.com/watch?v=lvYnfMOUOJY
 
 F. Breathe & Relax App (JavaScript/CSS) (MAYBE NOT)
