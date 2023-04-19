@@ -11,17 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Materialize Sandbox</title>
-  <style>
-    .input-field {
-      margin-bottom: 30px;
-    }
-  </style>
 </head>
 
 <body>
   <div class="row">
     <div class="col s12">
-      <h1 class="center-align">Basic Form & Input</h1>
+      <h1 class="center-align">Tables & Media</h1>
     </div>
   </div>
   <div class="container">
@@ -128,84 +123,119 @@
     <br>
 
     <!-- START HERE -->
-    <form>
-      <!-- TEXT FIELD -->
-      <div>
-        <input placeholder="Name" id="name" type="text">
-        <label for="name">Name</label>
+
+    <!-- TABLE -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>John Doe</th>
+          <th>jdoe@gmail.com</th>
+          <th>New York</th>
+        </tr>
+        <tr>
+          <th>Bob Johnson</th>
+          <th>bob@yahoo.com</th>
+          <th>Boston</th>
+        </tr>
+        <tr>
+          <th>Karen Williams</th>
+          <th>karen@yahoo.com</th>
+          <th>Miami</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <!-- STRIPED TABLE -->
+    <table class="striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>John Doe</th>
+          <th>jdoe@gmail.com</th>
+          <th>New York</th>
+        </tr>
+        <tr>
+          <th>Bob Johnson</th>
+          <th>bob@yahoo.com</th>
+          <th>Boston</th>
+        </tr>
+        <tr>
+          <th>Karen Williams</th>
+          <th>karen@yahoo.com</th>
+          <th>Miami</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <!-- BORDERED, HIGHTLIGHTED & RESPONSIVE TABLE -->
+    <table class="bordered highlight responsive-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>John Doe</th>
+          <th>jdoe@gmail.com</th>
+          <th>New York</th>
+        </tr>
+        <tr>
+          <th>Bob Johnson</th>
+          <th>bob@yahoo.com</th>
+          <th>Boston</th>
+        </tr>
+        <tr>
+          <th>Karen Williams</th>
+          <th>karen@yahoo.com</th>
+          <th>Miami</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <!-- RESPONSIVE IMAGE -->
+    <div class="row">
+      <div class="col s12">
+        <img src="img/img1.jpg" alt="" class="responsive-img">
       </div>
+    </div>
+    
+    <!-- CIRLCE IMAGE -->
+    <img src="img/img1.jpg" alt="" class="responsive-img circle">
 
-      <!-- VALUE & DISABLED -->
-      <div>
-        <input placeholder="Email" id="email" type="email">
-        <label for="email">Email</label>
-      </div>
+    <!-- RESPONSIVE VIDEO EMBED -->
+    <div class="video-container">
+      <iframe width="853" height="480" src="//www.youtube.com/embed/HnwsG9a5riA?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
 
-      <!-- TEXTAREA -->
-      <div>
-        <textarea placeholder="Message" id="message"></textarea>
-        <label for="message">Message</label>
-      </div>
-
-      <!-- INLINE FIELD -->
-      Number of users:
-      <div>
-        <input id="users" type="text">
-        <label for="users">#</label>
-      </div>
-
-      <!-- ICON PREFIX -->
-      <div>
-        <input id="phone" type="tel">
-        <label for="phone">Phone Number</label>
-      </div>
-
-      <!-- VALIDATION & ERROR -->
-      <div>
-        <input placeholder="Email" id="email" type="email">
-        <label for="email">Email</label>
-      </div>
-
-      <!-- SELECT (Must be initialized) -->
-      <div>
-        <select>
-
-        </select>
-        <label>Select List</label>
-      </div>
-
-      <!-- OPTION GROUPS -->
-      <div>
-        <select>
-
-        </select>
-        <label>Multiple Select</label>
-      </div>
-
-      <!-- MULTIPLE SELECT -->
-      <div>
-        <select>
-
-        </select>
-        <label>Multiple Select</label>
-      </div>
-
-      <!-- RADIO BUTTONS -->
-
-      <br>
-      <br>
-
-      <!-- CHECKBOXES -->
-
-
-      <br>
-      <br>
-      <div>
-        <input type="submit" value="Submit" class="btn">
-      </div>
-    </form>
-
-
+    <!-- RESPONSIVE VIDEO ELEMENT -->
+    <video class="responsive-video" controls>
+      <source src="somevideo.mp4" type="video/mp4">
+    </video>
 
     <!-- END HERE -->
 

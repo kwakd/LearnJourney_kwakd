@@ -11,17 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Materialize Sandbox</title>
-  <style>
-    .input-field {
-      margin-bottom: 30px;
-    }
-  </style>
 </head>
 
 <body>
   <div class="row">
     <div class="col s12">
-      <h1 class="center-align">Fancy Form & Input</h1>
+      <h1 class="center-align">Breadcrumbs & Footer</h1>
     </div>
   </div>
   <div class="container">
@@ -127,75 +122,67 @@
     <br>
     <br>
 
-    <!-- START HERE -->
-    <form>
-      <!-- SWITCH -->
-      <div>
-
-      </div>
-
-      <!-- DISABLED SWITCH -->
-      <div>
-
-      </div>
-
-      <br>
-      <br>
-
-      <!-- FILE INPUT -->
-      <div>
-        <div>
-          <span>Upload File</span>
-          <input type="file">
-        </div>
-        <div>
-          <input type="text">
-        </div>
-      </div>
-
-      <!-- RANGE SLIDER -->
-      <p>
-        <input type="range">
-      </p>
-
-      <!-- DATE PICKER -->
-      <div>
-        <input type="text" id="date">
-        <label for="date">Choose a Date</label>
-      </div>
-
-      <!-- TIME PICKER -->
-      <div>
-        <input type="text" id="time">
-        <label for="time">Choose a Time</label>
-      </div>
-
-      <!-- CHARACTER COUNTER -->
-      <div>
-        <input id="post" type="text">
-        <label for="post">Post</label>
-      </div>
-
-      <!-- AUTOCOMPLETE -->
-      <div>
-        <input type="text" id="fruit">
-        <label for="fruit">Type a Fruit</label>
-      </div>
-
-      <br>
-      <br>
-      <div>
-        <input type="submit" value="Submit" class="btn">
-      </div>
-    </form>
-
-
-
-    <!-- END HERE -->
-
-
   </div>
   <!-- ./ CONTAINER END -->
+
+  <!-- START HERE -->
+
+  <!-- BREADCRUMB -->
+  <nav class="grey">
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="col s12">
+          <a href="#" class="breadcrumb">Home</a>
+          <a href="#" class="breadcrumb">Users</a>
+          <a href="#" class="breadcrumb">Brad</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+
+  <!-- FOOTER -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h5 class="grey-text text-lighten-3">About Us</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Autem, natus nemo animi tempora iusto officia fugit earum tenetur provident consequuntur.
+          </p>
+        </div>
+        <div class="col s12 m4 offset-m2">
+          <h5 class="grey-text text-lighten-3">Links</h5>
+          <ul>
+            <li>
+              <a href="" class="white-text">Link 1</a>
+            </li>
+            <li>
+              <a href="" class="white-text">Link 2</a>
+            </li>
+            <li>
+              <a href="" class="white-text">Link 3</a>
+            </li>
+            <li>
+              <a href="" class="white-text">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-2">
+      <div class="container">
+        Copyright &copy; 2023
+        <a href="#" class="grey-text text-lighten-3 right">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- END HERE -->
 
 
 

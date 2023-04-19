@@ -16,7 +16,7 @@
 <body>
   <div class="row">
     <div class="col s12">
-      <h1 class="center-align">Tables & Media</h1>
+      <h1 class="center-align">Chips & Pagination</h1>
     </div>
   </div>
   <div class="container">
@@ -124,109 +124,79 @@
 
     <!-- START HERE -->
 
-    <!-- TABLE -->
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>John Doe</th>
-          <th>jdoe@gmail.com</th>
-          <th>New York</th>
-        </tr>
-        <tr>
-          <th>Bob Johnson</th>
-          <th>bob@yahoo.com</th>
-          <th>Boston</th>
-        </tr>
-        <tr>
-          <th>Karen Williams</th>
-          <th>karen@yahoo.com</th>
-          <th>Miami</th>
-        </tr>
-      </tbody>
-    </table>
+    <!-- CHIPS -->
+    <div class="chip">
+      Web development
+    </div>
+    <div class="chip">
+      Web design
+    </div>
+    <div class="chip">
+      Programming
+    </div>
 
     <br>
     <br>
 
-    <!-- STRIPED TABLE -->
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>John Doe</th>
-          <th>jdoe@gmail.com</th>
-          <th>New York</th>
-        </tr>
-        <tr>
-          <th>Bob Johnson</th>
-          <th>bob@yahoo.com</th>
-          <th>Boston</th>
-        </tr>
-        <tr>
-          <th>Karen Williams</th>
-          <th>karen@yahoo.com</th>
-          <th>Miami</th>
-        </tr>
-      </tbody>
-    </table>
+    <!-- CHIPS WITH CLOSE -->
+    <div class="chip">
+      Web development
+      <i class="close material-icons">close</i>
+    </div>
+    <div class="chip">
+      Web design
+      <i class="close material-icons">close</i>
+    </div>
+    <div class="chip">
+      Programming
+      <i class="close material-icons">close</i>
+    </div>
 
     <br>
     <br>
 
-    <!-- BORDERED, HIGHTLIGHTED & RESPONSIVE TABLE -->
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>John Doe</th>
-          <th>jdoe@gmail.com</th>
-          <th>New York</th>
-        </tr>
-        <tr>
-          <th>Bob Johnson</th>
-          <th>bob@yahoo.com</th>
-          <th>Boston</th>
-        </tr>
-        <tr>
-          <th>Karen Williams</th>
-          <th>karen@yahoo.com</th>
-          <th>Miami</th>
-        </tr>
-      </tbody>
-    </table>
+    <!-- CHIPS WITH IMAGES -->
+    <div class="chip">
+      <img src="img/img1.jpg"> John Doe
+    </div>
+    <div class="chip">
+      <img src="img/img2.jpg"> Brian Jackson
+    </div>
+    <div class="chip">
+      <img src="img/img3.jpg"> Lori Smith
+    </div>
 
-    <br>
-    <br>
+    <!-- CHIPS INPUT WITH AUTOCOMPLETE-->
+    <div class="chips-input"></div>
 
-    <!-- RESPONSIVE IMAGE -->
-
-
-    <!-- CIRLCE IMAGE -->
-
-
-    <!-- RESPONSIVE VIDEO EMBED -->
-
-    <!-- RESPONSIVE VIDEO ELEMENT -->
-
+    <!-- PAGINATION -->
+    <ul class="pagination">
+      <li class="disabled">
+        <a href="#!">
+          <i class="material-icons">chevron_left</i>
+        </a>
+      </li>
+      <li class="waves-effect">
+        <a href="#!">1</a>
+      </li>
+      <li class="waves-effect active">
+        <a href="#!">2</a>
+      </li>
+      <li class="waves-effect">
+        <a href="#!">3</a>
+      </li>
+      <li class="waves-effect">
+        <a href="#!">4</a>
+      </li>
+      <li class="waves-effect">
+        <a href="#!">5</a>
+      </li>
+      <li class="waves-effect">
+        <a href="#!">
+          <i class="material-icons">chevron_right</i>
+        </a>
+      </li>
+    </ul>
 
     <!-- END HERE -->
 
@@ -250,9 +220,24 @@
       });
 
       // JAVASCRIPT START HERE //
+      $('.chips-input').material_chip({
+        placeholder: 'Enter a tag',
+        secondaryplaceholder: '+tag',
+        autocompleteOptions:
+        {
+          data:
+          {
+            'html': null,
+            'css': null,
+            'javascript': null
+          }
+        }
+      });
 
-
-
+      // ADD CHIP EVENT
+      $('.chips-input').on('chip.add', function(e, chip){
+        console.log(`You added a chip - ${chip.tag}`);
+      });
 
     });
   </script>

@@ -11,12 +11,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Materialize Sandbox</title>
+  <style>
+    .input-field {
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 
 <body>
   <div class="row">
     <div class="col s12">
-      <h1 class="center-align">Preloaders</h1>
+      <h1 class="center-align">Fancy Form & Input</h1>
     </div>
   </div>
   <div class="container">
@@ -123,84 +128,77 @@
     <br>
 
     <!-- START HERE -->
-    <div class="row">
-      <div class="col s12 m6">
-
-        <!-- DETERMINATE PROGRESS -->
-        <div>
-          <div></div>
-        </div>
-
+    <form>
+      <!-- SWITCH -->
+      <div class="switch">
+        <label>
+          Disable
+          <input type="checkbox" checked>
+          <span class="lever"></span>
+          Enable
+        </label>
       </div>
-      <div class="col s12 m6">
 
-        <!-- INDETERMINATE PROGRESS -->
-        <div>
-          <div></div>
-        </div>
-
+      <!-- DISABLED SWITCH -->
+      <div class="switch">
+        <label>
+          Disable
+          <input type="checkbox">
+          <span class="lever"></span>
+          Enable
+        </label>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col s12 m4">
+      <br>
+      <br>
 
-        <!-- SMALL RED -->
-        <div>
-          <div>
-            <div>
-              <div></div>
-            </div>
-            <div>
-              <div></div>
-            </div>
-            <div>
-              <div></div>
-            </div>
-          </div>
+      <!-- FILE INPUT -->
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>Upload File</span>
+          <input type="file">
         </div>
-
-      </div>
-      <div class="col s12 m4">
-
-        <!-- STANDARD BLUE -->
-        <div>
-          <div>
-            <div>
-              <div></div>
-            </div>
-            <div>
-              <div></div>
-            </div>
-            <div>
-              <div></div>
-            </div>
-          </div>
+        <div class="file-path-wrapper">
+          <input type="text" class="file-path">
         </div>
-
       </div>
-      <div class="col s12 m4">
 
-        <!-- BIG YELLOW -->
-        <div>
-          <div>
-            <div>
-              <div></div>
-            </div>
-            <div>
-              <div></div>
-            </div>
-            <div>
-              <div></div>
-            </div>
-          </div>
-        </div>
+      <!-- RANGE SLIDER -->
+      <p class="range-field">
+        <input type="range" min="0" max="100">
+      </p>
 
+      <!-- DATE PICKER -->
+      <div class="input-field">
+        <input type="text" class="datepicker" id="date">
+        <label for="date">Choose a Date</label>
       </div>
-    </div>
 
+      <!-- TIME PICKER -->
+      <div>
+        <input type="text" class="timepicker" id="time">
+        <label for="time">Choose a Time</label>
+      </div>
 
-    <!-- FLASHING COLORS -->
+      <!-- CHARACTER COUNTER -->
+      <div>
+        <input id="post" type="text" data-length="20">
+        <label for="post">Post</label>
+      </div>
+
+      <!-- AUTOCOMPLETE -->
+      <div>
+        <input type="text" id="fruit" class="autocomplete">
+        <label for="fruit">Type a Fruit</label>
+      </div>
+
+      <br>
+      <br>
+      <div>
+        <input type="submit" value="Submit" class="btn">
+      </div>
+    </form>
+
 
 
     <!-- END HERE -->
@@ -226,8 +224,37 @@
 
       // JAVASCRIPT START HERE //
 
+      // INIT DATEPICKER
+      $('.datepicker').pickadate({
+        selectMonths: true,
+        selectYears: 15,
+        closeOnSelect: true
+      });
 
+      // INIT TIMEPICKER
+      $('.timepicker').pickatime({
+        default: 'now',
+        twelvehour: true,
+        donetext: 'ok',
+        cleartext: 'clear',
+        canceltext: 'cancel',
+        autoclose: true
+      });
 
+      // INIT AUTOCOMPLETE
+      $('.autocomplete').autocomplete({
+        data: {
+          "Apple": null,
+          "Orange": null,
+          "Banana": null,
+          "Grapes": null,
+          "Strawberries": null,
+          "Pears": null,
+          "Plumbs": null
+        },
+        limit: 20,
+        minlength: 2
+      });
 
     });
   </script>
