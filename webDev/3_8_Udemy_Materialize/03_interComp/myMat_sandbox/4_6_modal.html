@@ -125,27 +125,27 @@
     <!-- START HERE -->
 
     <!-- MODAL TRIGGER -->
-    <a>Modal</a>
+    <a class="btn waves-effect waves-light modal-trigger" href="#modal1">Modal</a>
 
     <!-- MODAL -->
-    <div>
-      <div>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
         <h4>Modal Header</h4>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis laboriosam porro laborum, aliquid ipsa fugiat
           molestias laudantium quod quo.</p>
       </div>
-      <div>
-        <a>Ok</a>
+      <div class="modal-footer">
+        <a class="modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
       </div>
     </div>
 
 
     <!-- FIXED FOOTER MODAL TRIGGER -->
-    <a>Fixed Footer Modal</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Fixed Footer Modal</a>
 
     <!-- FIXED FOOTER MODAL -->
-    <div>
-      <div>
+    <div id="modal2" class="modal modal-fixed-footer">
+      <div class="modal-content">
         <h4>Fixed Footer Modal</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione impedit eum repudiandae doloribus praesentium incidunt,
           id exercitationem adipisci nostrum provident iusto autem delectus tempore aliquam veniam natus at consequuntur
@@ -169,25 +169,25 @@
           architecto quae, debitis quia dignissimos totam, voluptatum ratione omnis officia possimus quas esse nisi dolor
           sequi facere maiores commodi, reiciendis quasi. Eos tenetur consectetur omnis nihil. Iste at similique eaque?</p>
       </div>
-      <div>
-        <a>Ok</a>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
       </div>
     </div>
 
 
 
     <!-- BOTTOM SHEET MODAL TRIGGER -->
-    <a>Bottom Sheet Modal</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Bottom Sheet Modal</a>
 
     <!-- BOTTOM SHEET MODAL -->
-    <div>
+    <div id="modal3" class="modal bottom-sheet">
       <div>
         <h4>Bottom Sheet Modal</h4>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In quam ut doloremque quisquam eveniet dolores, est numquam
           sapiente aliquid necessitatibus, dicta odio voluptate hic cupiditate aperiam dolorum maxime veniam quae.</p>
       </div>
-      <div>
-        <a>Ok</a>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
       </div>
     </div>
 
@@ -216,7 +216,15 @@
 
       // JAVASCRIPT START HERE //
 
-
+      $('.modal').modal({
+        dismissible: true,
+        inDuration: 300,
+        outDuration: 200,
+        ready: function(modal, trigger)
+        {
+          console.log('Modal Opened', modal, trigger);
+        }
+      });
 
 
     });

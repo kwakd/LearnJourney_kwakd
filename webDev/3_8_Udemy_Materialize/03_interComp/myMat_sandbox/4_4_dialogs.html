@@ -125,22 +125,22 @@
     <!-- START HERE -->
 
     <!-- TOAST BUTTON -->
-    <a class="btn">Show Toast</a>
+    <a id="toast1" class="btn">Show Toast</a>
 
     <!-- ROUNDED TOAST -->
-    <a class="btn">Rounded Toast</a>
+    <a id="toast2" class="btn">Rounded Toast</a>
 
     <!-- CALLBACK ON DISMISS -->
-    <a class="btn">Toast With Callback</a>
+    <a id="toast3" class="btn">Toast With Callback</a>
 
     <br>
     <br>
 
     <!-- TOOLTIPS -->
-    <a class="btn">Bottom Tooltip</a>
-    <a class="btn">Top Tooltip</a>
-    <a class="btn">Right Tooltip</a>
-    <a class="btn">Left Tooltip</a>
+    <a class="btn tooltipped" data-delay="2000" data-position="bottom" data-tooltip="I am a tooltip">Bottom Tooltip</a>
+    <a class="btn tooltipped" data-position="top" data-tooltip="I am a tooltip">Top Tooltip</a>
+    <a class="btn tooltipped" data-position="right" data-tooltip="I am a tooltip">Right Tooltip</a>
+    <a class="btn tooltipped" data-position="left" data-tooltip="I am a tooltip">Left Tooltip</a>
 
 
     <!-- END HERE -->
@@ -166,9 +166,33 @@
 
       // JAVASCRIPT START HERE //
 
+      //  RUN TOAST
+      // $('#toast1').click(function(){
+      //   Materialize.toast('I am toast', 3000);
+      // });
+      document.getElementById('toast1').addEventListener('click', function(){
+        Materialize.toast('I am toast', 3000);
+      });
 
+      // ROUNDED TOAST
+      $('#toast2').click(function(){
+        Materialize.toast('I am toast', 3000, 'rounded');
+      });
 
+      // TOAST CALLBACK
+      $('#toast3').click(function(){
+        Materialize.toast('I am toast', 3000, 'rounded', function(){
+          alert('Toast Dismissed!');
+        });
+      });
 
+      // CREATE TOAST
+      Materialize.toast('I am toast', 3000);
+
+      // REMOVE ALL TOAST
+      setTimeout(function(){
+        Materialize.Toast.removeAll();
+      }, 2000);
     });
   </script>
 </body>
