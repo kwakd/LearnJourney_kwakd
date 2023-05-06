@@ -9,11 +9,74 @@
         crossorigin="anonymous">
 
     <title>Bootstrap Sandbox</title>
+    <style>
+        /* Small devices (landscape phones) */
+
+        @media (min-width: 576px) {
+            body
+            {
+                background: red;
+            }
+        }
+
+        /* Medium devices (tablets) */
+
+        @media (min-width: 768px) {
+            body
+            {
+                background: blue;
+            }
+        }
+
+        /* Large devices (desktops) */
+
+        @media (min-width: 992px) {
+            body
+            {
+                background: green;
+            }
+        }
+
+        /* Extra large devices (large desktops) */
+
+        @media (min-width: 1200px) {
+            body
+            {
+                background: yellow;
+            }
+        }
+
+        /* The given screen size or smaller */
+
+        /* Extra small devices (portrait phones)*/
+
+        @media (max-width: 575px) {
+            body
+            {
+                background: coral;
+            }
+        }
+
+        /* Small devices (landscape phones)*/
+
+        @media (max-width: 767px) {
+        }
+
+        /* Medium devices (tablets)*/
+
+        @media (max-width: 991px) {
+        }
+
+        /* Large devices (desktops)*/
+
+        @media (max-width: 1199px) {
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">List Groups & Badges</h1>
+        <h1 class="display-3 text-center my-4">Breakpoints</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,78 +148,8 @@
     </header>
 
     <div class="container">
-        <!--################START HERE##################-->
+        <!--########################START HERE#########################-->
 
-        <!-- LIST GROUP -->
-        <ul>
-            <li>My List Item One</li>
-            <li>My List Item Two</li>
-            <li>My List Item Three</li>
-            <li>My List Item Four</li>
-            <li>My List Item Five</li>
-        </ul>
-
-        <!-- LIST GROUP WITH LINKS -->
-        <ul>
-            <a href="#">My List Item One</a>
-            <a href="#">My List Item Two</a>
-            <a href="#">My List Item Three</a>
-            <a href="#">My List Item Four</a>
-            <a href="#">My List Item Five</a>
-        </ul>
-
-
-        <!-- CONTEXTUAL CLASSES -->
-        <ul>
-            <li>Regular List Item</li>
-            <li>Primary List Item</li>
-            <li>Secondary List Item</li>
-            <li>Success List Item</li>
-            <li>Info List Item</li>
-            <li>Warning List Item</li>
-            <li>Danger List Item</li>
-            <li>Light List Item</li>
-            <li>Dark List Item</li>
-        </ul>
-
-        <!-- FLUSH LIST GROUP -->
-        <ul>
-            <li>My List Item One</li>
-            <li>My List Item Two</li>
-            <li>My List Item Three</li>
-            <li>My List Item Four</li>
-            <li>My List Item Five</li>
-        </ul>
-
-
-        <!-- BADGE -->
-        <ul>
-            <li>My List Item One</li>
-            <li>My List Item Two</li>
-            <li>My List Item Three</li>
-            <li>My List Item Four</li>
-            <li>My List Item Five</li>
-        </ul>
-
-        <!-- BREADCRUMB -->
-        <ol>
-            <li>Home</li>
-        </ol>
-        <ol>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>Users</li>
-        </ol>
-        <ol>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Users</a>
-            </li>
-            <li>Brad</li>
-        </ol>
 
     </div>
     <!-- ./container -->

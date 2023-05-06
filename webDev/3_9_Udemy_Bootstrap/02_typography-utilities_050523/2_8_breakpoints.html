@@ -9,11 +9,74 @@
         crossorigin="anonymous">
 
     <title>Bootstrap Sandbox</title>
+    <style>
+        /* Small devices (landscape phones) */
+
+        @media (min-width: 576px) {
+            body
+            {
+                background: red;
+            }
+        }
+
+        /* Medium devices (tablets) */
+
+        @media (min-width: 768px) {
+            body
+            {
+                background: blue;
+            }
+        }
+
+        /* Large devices (desktops) */
+
+        @media (min-width: 992px) {
+            body
+            {
+                background: green;
+            }
+        }
+
+        /* Extra large devices (large desktops) */
+
+        @media (min-width: 1200px) {
+            body
+            {
+                background: yellow;
+            }
+        }
+
+        /* The given screen size or smaller */
+
+        /* Extra small devices (portrait phones)*/
+
+        @media (max-width: 575px) {
+            body
+            {
+                background: coral;
+            }
+        }
+
+        /* Small devices (landscape phones)*/
+
+        @media (max-width: 767px) {
+        }
+
+        /* Medium devices (tablets)*/
+
+        @media (max-width: 991px) {
+        }
+
+        /* Large devices (desktops)*/
+
+        @media (max-width: 1199px) {
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Input Groups & Addons</h1>
+        <h1 class="display-3 text-center my-4">Breakpoints</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,91 +148,8 @@
     </header>
 
     <div class="container">
-        <!--####################START HERE#####################-->
+        <!--########################START HERE#########################-->
 
-        <!-- BASIC INPUT GROUPS -->
-        <div>
-            <div>
-                <span>@</span>
-            </div>
-            <input type="text" placeholder="Username">
-        </div>
-
-        <br>
-
-        <div>
-            <input type="text" placeholder="Username">
-            <div>
-                <span>@something.com</span>
-            </div>
-        </div>
-
-        <br>
-
-        <label for="basic-url">Custom URL</label>
-        <div>
-            <div>
-                <span>https://something.com/member/</span>
-            </div>
-            <input type="text">
-        </div>
-
-        <br>
-
-        <div>
-            <div>
-                <span>$</span>
-            </div>
-            <input type="text">
-            <div>
-                <span>.00</span>
-            </div>
-        </div>
-
-        <br>
-
-        <!-- CHECKBOX -->
-        <div>
-            <div>
-                <div>
-                    <input type="checkbox">
-                </div>
-            </div>
-            <input type="text">
-        </div>
-
-        <br>
-
-        <!-- RADIO -->
-        <div>
-            <div>
-                <div>
-                    <input type="radio">
-                </div>
-            </div>
-            <input type="text">
-        </div>
-
-        <br>
-
-        <!-- MULTIPLE INPUTS -->
-        <div>
-            <div>
-                <span id="">Name & Email</span>
-            </div>
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
-        </div>
-
-        <br>
-
-        <!-- BUTTON ADDONS -->
-        <div>
-            <input type="text" placeholder="Find By Name...">
-            <div>
-                <button type="button">Search</button>
-            </div>
-        </div>
 
     </div>
     <!-- ./container -->

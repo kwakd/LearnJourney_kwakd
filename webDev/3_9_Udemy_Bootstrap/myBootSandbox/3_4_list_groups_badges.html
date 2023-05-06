@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Forms</h1>
+        <h1 class="display-3 text-center my-4">List Groups & Badges</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,117 +85,80 @@
     </header>
 
     <div class="container">
-        <!--##################START HERE#####################-->
+        <!--################START HERE##################-->
 
-        <!-- FORM -->
-        <form>
-            <!-- TEXT FIELD GROUPS -->
-            <div>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter name">
-            </div>
-            <div>
-                <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="Enter email">
-            </div>
-            <div>
-                <label for="company">Company</label>
-                <input type="text" id="company" placeholder="Enter company name">
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password">
-            </div>
-            <!-- SELECT -->
-            <div>
-                <label for="gender">Gender</label>
-                <select id="gender">
-                    <option>Male</option>
-                    <option>Female</option>
-                </select>
-            </div>
-            <!-- TEXTAREA -->
-            <div>
-                <label for="message">Message</label>
-                <textarea id="message" rows="3"></textarea>
-            </div>
-            <!-- FILE INPUT -->
-            <div>
-                <label for="file">File input</label>
-                <input type="file" id="file">
-                <small id="fileHelp">Max 3mb size</small>
-            </div>
-            <!-- CUSTOM FILE INPUT -->
-            <div>
-                <input type="file" id="myfile">
-                <label for="myfile">Choose file</label>
-            </div>
-            <br>
-            <br>
-            <!-- RANGE -->
-            <div>
-                <label for="membership">Membership Level</label>
-                <input type="range">
-            </div>
+        <!-- LIST GROUP -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item active">My List Item Two</li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
+        </ul>
 
-            <br>
+        <!-- LIST GROUP WITH LINKS -->
+        <ul class="list-group mb-5">
+            <a class="list-group-item" href="#">My List Item One</a>
+            <a class="list-group-item" href="#">My List Item Two</a>
+            <a class="list-group-item active" href="#">My List Item Three</a>
+            <a class="list-group-item" href="#">My List Item Four</a>
+            <a class="list-group-item" href="#">My List Item Five</a>
+        </ul>
 
-            <button type="submit">Submit</button>
-        </form>
 
-        <br>
-        <br>
+        <!-- CONTEXTUAL CLASSES -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item">Regular List Item</li>
+            <li class="list-group-item list-group-item-primary">Primary List Item</li>
+            <li class="list-group-item list-group-item-secondary">Secondary List Item</li>
+            <li class="list-group-item list-group-item-success">Success List Item</li>
+            <li class="list-group-item list-group-item-info">Info List Item</li>
+            <li class="list-group-item list-group-item-warning">Warning List Item</li>
+            <li class="list-group-item list-group-item-danger">Danger List Item</li>
+            <li class="list-group-item list-group-item-light">Light List Item</li>
+            <li class="list-group-item list-group-item-dark">Dark List Item</li>
+        </ul>
 
-        <!-- INLINE FORM -->
-        <form>
-            <input type="text" id="username" placeholder="Enter username">
-            <input type="text" id="password" placeholder="Password">
-            <div>
-                <label>
-                    <input type="checkbox"> Remember me
-                </label>
-            </div>
+        <!-- FLUSH LIST GROUP -->
+        <ul class="list-group list-group-flush mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item">My List Item Two</li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item active">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
+        </ul>
 
-            <button type="submit">Submit</button>
-        </form>
 
-        <br>
-        <br>
+        <!-- BADGE -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">My List Item Two
+                <span class="badge badge-primary">30</span>
+            </li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
+        </ul>
 
-        <!-- FORM ROW -->
-        <form>
-            <div>
-                <div>
-                    <input type="text" placeholder="First name">
-                </div>
-                <div>
-                    <input type="text" placeholder="Last name">
-                </div>
-            </div>
-        </form>
-
-        <br>
-        <br>
-
-        <!-- VALIDATION -->
-        <div>
-            <label for="username">Username</label>
-            <input type="text" id="username">
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="text" id="password">
-            <div>
-                Password not strong enough
-            </div>
-        </div>
-        <div>
-            <label for="password2">Confirm Password</label>
-            <input type="text" id="password2">
-            <div>
-                Password does not match
-            </div>
-        </div>
+        <!-- BREADCRUMB -->
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Home</li>
+        </ol>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Users</li>
+        </ol>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Users</a>
+            </li>
+            <li class="breadcrumb-item active">Brad</li>
+        </ol>
 
     </div>
     <!-- ./container -->

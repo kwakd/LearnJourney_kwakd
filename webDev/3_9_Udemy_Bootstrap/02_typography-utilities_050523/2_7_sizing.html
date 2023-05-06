@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Colors & Background</h1>
+        <h1 class="display-3 text-center my-4">Sizing & Borders</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,74 +85,62 @@
     </header>
 
     <div class="container">
-        <!--###################START HERE####################-->
+        <!--##################START HERE####################-->
 
-        <!-- TEXT COLORS -->
-        <p>Text Primary Color</p>
-        <p>Text Secondary Color</p>
-        <p>Text Success Color</p>
-        <p>Text Info Color</p>
-        <p>Text Warning Color</p>
-        <p>Text Danger Color</p>
-        <p>Text Light Color</p>
-        <p>Text Dark Color</p>
-        <p>Text White Color</p>
-        <p>Text Muted</p>
-        <p>Text Black 50</p>
-        <p>Text White 50</p>
+        <!-- WIDTH CLASSES -->
+        <div class="bg-success p-3 w-25">Width 25%</div>
+        <div class="bg-success p-3 w-50">Width 50%</div>
+        <div class="bg-success p-3 w-75">Width 75%</div>
+        <div class="bg-success p-3 w-100">Width 100%</div>
+        <div class="bg-success p-3 w-auto">Width Auto</div>
 
         <br>
         <br>
 
-        <!-- LINK COLORS -->
-        <p>
-            <a href="#">Primary link</a>
-        </p>
-        <p>
-            <a href="#">Secondary link</a>
-        </p>
-        <p>
-            <a href="#">Success link</a>
-        </p>
-        <p>
-            <a href="#">Info link</a>
-        </p>
-        <p>
-            <a href="#">Warning link</a>
-        </p>
-        <p>
-            <a href="#">Danger link</a>
-        </p>
-        <p>
-            <a href="#">Light link</a>
-        </p>
-        <p>
-            <a href="#">Dark link</a>
-        </p>
-        <p>
-            <a href="#">Muted link</a>
-        </p>
-        <p>
-            <a href="#">White link</a>
-        </p>
+        <!-- HEIGHT CLASSES -->
+        <div style="height:300px;border: 1px solid #333;">
+            <div class="bg-primary d-inline-block h-25">Height 25%</div>
+            <div class="bg-primary d-inline-block h-50">Height 50%</div>
+            <div class="bg-primary d-inline-block h-75">Height 75%</div>
+            <div class="bg-primary d-inline-block h-100">Height 100%</div>
+            <div class="bg-primary d-inline-block h-auto">Height Auto</div>
+        </div>
 
         <br>
         <br>
 
-        <!-- BACKGROUND COLORS -->
-        <div>Background Primary Color</div>
-        <div>Background Secondary Color</div>
-        <div>Background Success Color</div>
-        <div>Background Info Color</div>
-        <div>Background Warning Color</div>
-        <div>Background Danger Color</div>
-        <div>Background Light Color</div>
-        <div>Background Dark Color</div>
-        <div>Background White Color</div>
-        <div>Background Transparent</div>
+        <!-- BORDERS -->
+        <div class="p-3 mb-2 bg-light border">Regular</div>
+        <div class="p-3 mb-2 bg-light border-top">Border Top</div>
+        <div class="p-3 mb-2 bg-light border-bottom">Border Bottom</div>
+        <div class="p-3 mb-2 bg-light border-right">Border Right</div>
+        <div class="p-3 mb-2 bg-light border-left">Border Left</div>
 
-        <!-- INVISIBLE -->
-        <p>Hello</p>
+        <br>
+        <br>
+
+        <!-- BORDER COLORS -->
+        <div class="p-3 mb-2 bg-light border border-primary">Primary</div>
+        <div class="p-3 mb-2 bg-light border border-secondary">Secondary</div>
+        <div class="p-3 mb-2 bg-light border border-success">Success</div>
+        <div class="p-3 mb-2 bg-light border border-info">Info</div>
+        <div class="p-3 mb-2 bg-light border border-warning">Warning</div>
+        <div class="p-3 mb-2 bg-light border border-danger">Danger</div>
+        <div class="p-3 mb-2 bg-light border border-light">Light</div>
+        <div class="p-3 mb-2 bg-light border border-dark">Dark</div>
+        <div class="p-3 mb-2 bg-light border border-white">White</div>
+
+        <br>
+        <br>
+
+        <!-- BORDER RADIUS -->
+        <div class="p-3 mb-2 bg-light border rounded border-success">Rounded</div>
+        <div class="p-3 mb-2 bg-light border rounded-top">Rounded Top</div>
+        <div class="p-3 mb-2 bg-light border rounded-bottom">Rounded Bottom</div>
+        <div class="p-3 mb-2 bg-light border rounded-right">Rounded Right</div>
+        <div class="p-3 mb-2 bg-light border rounded-left">Rounded Left</div>
+        <div class="p-3 mb-2 bg-light w-25 border rounded-circle">Rounded Circle</div>
+        <div class="p-3 mb-2 bg-light border rounded-0">Dark</div>
 
     </div>
     <!-- ./container -->
