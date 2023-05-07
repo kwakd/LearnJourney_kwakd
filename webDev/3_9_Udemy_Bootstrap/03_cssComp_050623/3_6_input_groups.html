@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Media Object</h1>
+        <h1 class="display-3 text-center my-4">Input Groups & Addons</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,120 +85,91 @@
     </header>
 
     <div class="container">
-        <!--#####################START HERE######################-->
+        <!--####################START HERE#####################-->
 
-        <!-- MEDIA OBJECT -->
-        <div class="media">
-            <img class="mr-3 mt-3" src="https://source.unsplash.com/random/90x90">
-            <div class="media-body">
-                <h5>Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                felis in faucibus.
+        <!-- BASIC INPUT GROUPS -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Username">
+        </div>
+
+        <br>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Username">
+            <div class="input-group-append">
+                <span class="input-group-text">@something.com</span>
             </div>
         </div>
 
         <br>
+
+        <label for="basic-url">Custom URL</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">https://something.com/member/</span>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+
         <br>
 
-        <!-- NESTING MEDIA OBJECTS -->
-        <div class="media">
-            <img class="mr-3" src="https://source.unsplash.com/random/90x91">
-            <div class="media-body">
-                <h5>Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                felis in faucibus.
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+            </div>
+            <input class="form-control" type="text">
+            <div class="input-group-append">
+                <span class="input-group-text">.00</span>
+            </div>
+        </div>
 
-                <div class="media mt-4">
-                    <a class="pr-3" href="#">
-                        <img src="https://source.unsplash.com/random/90x92">
-                    </a>
-                    <div class="media-body">
-                        <h5>Nested Media</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                        congue felis in faucibus.
-                    </div>
+        <br>
+
+        <!-- CHECKBOX -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="checkbox">
                 </div>
             </div>
+            <input type="text" class="form-control">
         </div>
 
         <br>
+
+        <!-- RADIO -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="radio">
+                </div>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+
         <br>
 
-        <!-- TOP ALIGNED (DEFAULT) -->
-        <div class="media">
-            <img class="mr-3 align-self-start" src="https://source.unsplash.com/random/90x93">
-            <div class="media-body">
-                <h5>Top aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                    Donec lacinia congue felis in faucibus.</p>
+        <!-- MULTIPLE INPUTS -->
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">Name & Email</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Full Name">
+            <input class="form-control" type="email" placeholder="Email">
+        </div>
+
+        <br>
+
+        <!-- BUTTON ADDONS -->
+        <div class="input-group mb-3">
+            <input class="form-control" type="text" placeholder="Find By Name...">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
             </div>
         </div>
-
-        <br>
-        <br>
-
-        <!-- CENTER ALIGNED -->
-        <div class="media">
-            <img class="mr-3 align-self-center" src="https://source.unsplash.com/random/90x94">
-            <div class="media-body">
-                <h5>Center aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                    Donec lacinia congue felis in faucibus.</p>
-            </div>
-        </div>
-
-        <br>
-        <br>
-
-        <!-- BOTTOM ALIGNED -->
-        <div class="media">
-            <img class="mr-3 align-self-end" src="https://source.unsplash.com/random/90x95">
-            <div class="media-body">
-                <h5>Bottom aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                    Donec lacinia congue felis in faucibus.</p>
-            </div>
-        </div>
-
-        <br>
-        <br>
-
-        <!-- MEDIA LIST -->
-        <ul class="list-unstyled">
-            <li class="media">
-                <img class="mr-3" src="https://source.unsplash.com/random/90x96">
-                <div class="media-body">
-                    <h5>List based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                    congue felis in faucibus.
-                </div>
-            </li>
-            <li class="media">
-                <img class="mr-3" src="https://source.unsplash.com/random/90x97">
-                <div class="media-body">
-                    <h5>List based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                    congue felis in faucibus.
-                </div>
-            </li>
-            <li class="media">
-                <img class="mr-3" src="https://source.unsplash.com/random/90x98">
-                <div class="media-body">
-                    <h5>List based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                    congue felis in faucibus.
-                </div>
-            </li>
-        </ul>
 
     </div>
     <!-- ./container -->

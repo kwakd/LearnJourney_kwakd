@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Media Object</h1>
+        <h1 class="display-3 text-center my-4">Forms</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,120 +85,118 @@
     </header>
 
     <div class="container">
-        <!--#####################START HERE######################-->
+        <!--##################START HERE#####################-->
 
-        <!-- MEDIA OBJECT -->
-        <div class="media">
-            <img class="mr-3 mt-3" src="https://source.unsplash.com/random/90x90">
-            <div class="media-body">
-                <h5>Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                felis in faucibus.
+        <!-- FORM -->
+        <form>
+            <!-- TEXT FIELD GROUPS -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control" type="text" id="name" placeholder="Enter name">
             </div>
-        </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email">
+                <small class="form-text text-muted">Your email will not ever be shared</small>
+            </div>
+            <div class="form-group">
+                <label for="company">Company</label>
+                <input class="form-control form-control-sm" type="text" id="company" placeholder="Enter company name">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" id="password" placeholder="Password" readonly>
+            </div>
+            <!-- SELECT -->
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select class="form-control" id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+            <!-- TEXTAREA -->
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <!-- FILE INPUT -->
+            <div class="form-group">
+                <label for="file">File input</label>
+                <input type="file" id="file" class="form-control-file">
+                <small class="form-text text-muted" id="fileHelp">Max 3mb size</small>
+            </div>
+            <!-- CUSTOM FILE INPUT -->
+            <div class="custom-file">
+                <input type="file" id="myfile" class="custom-file-input">
+                <label class="custom-file-label" for="myfile">Choose file</label>
+            </div>
+            <br>
+            <br>
+            <!-- RANGE -->
+            <div class="form-group">
+                <label for="membership">Membership Level</label>
+                <input class="custom-range" min="1" max="5" step="1" value="1" type="range">
+            </div>
+
+            <br>
+
+            <button class="btn btn-primary btn-block" type="submit">Submit</button>
+        </form>
 
         <br>
         <br>
 
-        <!-- NESTING MEDIA OBJECTS -->
-        <div class="media">
-            <img class="mr-3" src="https://source.unsplash.com/random/90x91">
-            <div class="media-body">
-                <h5>Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                felis in faucibus.
+        <!-- INLINE FORM -->
+        <form class="form-inline">
+            <input class="form-control mr-2" type="text" id="username" placeholder="Enter username">
+            <input class="form-control mr-2" type="text" id="password" placeholder="Password">
+            <div class="form-check">
+                <label class="form-check-label mr-2">
+                    <input type="checkbox" class="form-check-input"> Remember me
+                </label>
+            </div>
 
-                <div class="media mt-4">
-                    <a class="pr-3" href="#">
-                        <img src="https://source.unsplash.com/random/90x92">
-                    </a>
-                    <div class="media-body">
-                        <h5>Nested Media</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                        congue felis in faucibus.
-                    </div>
+            <button class="btn btn-light" type="submit">Submit</button>
+        </form>
+
+        <br>
+        <br>
+
+        <!-- FORM ROW -->
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
                 </div>
             </div>
+        </form>
+
+        <br>
+        <br>
+
+        <!-- VALIDATION -->
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input class="form-control is-valid" type="text" id="username">
         </div>
-
-        <br>
-        <br>
-
-        <!-- TOP ALIGNED (DEFAULT) -->
-        <div class="media">
-            <img class="mr-3 align-self-start" src="https://source.unsplash.com/random/90x93">
-            <div class="media-body">
-                <h5>Top aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                    Donec lacinia congue felis in faucibus.</p>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input class="form-control is-invalid" type="text" id="password">
+            <div class="invalid-feedback">
+                Password not strong enough
             </div>
         </div>
-
-        <br>
-        <br>
-
-        <!-- CENTER ALIGNED -->
-        <div class="media">
-            <img class="mr-3 align-self-center" src="https://source.unsplash.com/random/90x94">
-            <div class="media-body">
-                <h5>Center aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                    Donec lacinia congue felis in faucibus.</p>
+        <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input class="form-control is-invalid" type="text" id="password2">
+            <div class="invalid-feedback">
+                Password does not match
             </div>
         </div>
-
-        <br>
-        <br>
-
-        <!-- BOTTOM ALIGNED -->
-        <div class="media">
-            <img class="mr-3 align-self-end" src="https://source.unsplash.com/random/90x95">
-            <div class="media-body">
-                <h5>Bottom aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                    Donec lacinia congue felis in faucibus.</p>
-            </div>
-        </div>
-
-        <br>
-        <br>
-
-        <!-- MEDIA LIST -->
-        <ul class="list-unstyled">
-            <li class="media">
-                <img class="mr-3" src="https://source.unsplash.com/random/90x96">
-                <div class="media-body">
-                    <h5>List based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                    congue felis in faucibus.
-                </div>
-            </li>
-            <li class="media">
-                <img class="mr-3" src="https://source.unsplash.com/random/90x97">
-                <div class="media-body">
-                    <h5>List based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                    congue felis in faucibus.
-                </div>
-            </li>
-            <li class="media">
-                <img class="mr-3" src="https://source.unsplash.com/random/90x98">
-                <div class="media-body">
-                    <h5>List based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                    congue felis in faucibus.
-                </div>
-            </li>
-        </ul>
 
     </div>
     <!-- ./container -->
