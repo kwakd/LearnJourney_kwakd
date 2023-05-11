@@ -9,7 +9,6 @@
       crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Theme</title>
   </head>
@@ -160,116 +159,6 @@
       </div>
     </section>
 
-    <!-- VIDEO PLAY -->
-    <section id="video-play">
-      <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container p-5">
-              <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal">
-                <i class="fas fa-play fa-3x"></i>
-              </a>
-              <h1>See What We Do</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PHOTO GALLERY -->
-    <section id="gallery" class="py-5">
-      <div class="container">
-        <h1 class="text-center">Photo Gallery</h1>
-        <p class="text-center">Check out our photos</p>
-        <div class="row mb-4">
-          <div class="col-md-4">
-            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
-              <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
-              <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
-              <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-            </a>
-          </div>
-
-        </div>
-
-        <div class="row mb-4">
-          <div class="col-md-4">
-            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
-              <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
-              <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
-              <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- NEWSLETTER -->
-    <section id="newsletter" class="text-center p-5 bg-dark text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h1>Sign Up For Our Newsletter</h1>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla aut tempora modi at facilis labore ex tenetur voluptatum distinctio id!
-            </p>
-            <form class="form-inline justify-content-center">
-              <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
-              <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
-              <button class="btn btn-primary mb-2">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer id="main-footer" class="text-center p-4">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p>Copyright &copy; <span id="year"></span> Glozzom</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- VIDEO MODAL -->
-    <div class="modal fade" id="videoModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button class="close" data-dismiss="modal">
-              <span>&times;</span>
-            </button>
-            <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
@@ -277,7 +166,6 @@
       crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
     <script>
       // Get the current year for the copyright
@@ -288,27 +176,6 @@
         interval: 6000,
         pause: 'hover'
       });
-
-      // Lightbox Init
-      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-      });
-
-      // Video Play
-      $(function () {
-        // Auto play modal video
-        $(".video").click(function () {
-          var theModal = $(this).data("target"),
-            videoSRC = $(this).attr("data-video"),
-            videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-          $(theModal + ' iframe').attr('src', videoSRCauto);
-          $(theModal + ' button.close').click(function () {
-            $(theModal + ' iframe').attr('src', videoSRC);
-          });
-        });
-      });
-
     </script>
   </body>
 
