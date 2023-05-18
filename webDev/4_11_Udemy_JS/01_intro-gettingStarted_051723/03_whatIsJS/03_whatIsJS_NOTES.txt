@@ -1,0 +1,28 @@
+What Is JavaScript?
+
+	- What Is JavaScript?
+		- JavaScript is one of the core technologies of the web, alongside HTML & CSS
+		- It is a high-level, interpreted programming language that can be used on the client
+		side as well as the server-side with Node.js
+
+	- What is JavaScript Used For?
+		- DOM (Document Object Model) Manipulation
+		- Event Handling
+		- Asynchronous Requests
+		- Animations & Effects
+		- Data Manipulation (Sorting, filtering, etc)
+		- Storing Data (Cookies, LocalStorage, etc)
+		- Single Page Applications (SPA)
+		- Creating APIs & Web Services (Node.js, Deno)
+
+	- Why Learn JavaScript?
+		- Popularity
+			- One of the most widely used languages. Many job opportunities
+		- Versatility
+			- Used for many different things, such as dynamic web pages, APIs, mobile
+			and even desktop applications
+		- Relatively Easy to Learn
+			- Compared to other lower level languages, JavaScript is pretty easy to
+			learn and a great language to start with
+		- Community
+			- Great community, support, resources and tools

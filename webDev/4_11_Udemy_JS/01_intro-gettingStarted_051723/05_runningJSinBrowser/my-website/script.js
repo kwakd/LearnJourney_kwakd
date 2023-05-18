@@ -1,0 +1,1 @@
+alert('HELLO FROM SCRIPT.JS FILE');
