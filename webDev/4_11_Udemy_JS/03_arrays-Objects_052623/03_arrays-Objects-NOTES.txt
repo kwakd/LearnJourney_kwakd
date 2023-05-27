@@ -1,0 +1,13 @@
+03_arrays-Objects
+
+	- 02_creatingArrays
+		- Array Basics
+			- Arrays are a special type of 'object' and a data structure in JavaScript
+			that stores multiple values
+			- IMG01.PNG
+	- 06_objectLiterals
+		- Object Literal
+			- A common data structure that holds key/value pairs
+			- IMG02.PNG
+
+	

@@ -1,9 +1,0 @@
-03_arrays-Objects
-
-	- 25_CreatingArrays
-		- Array Basics
-			- Arrays are a special type of 'object' and a data structure in JavaScript
-			that stores multiple values
-			- IMG01.jpg
-
-	
