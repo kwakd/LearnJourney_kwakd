@@ -1,0 +1,5 @@
+CODE:
+
+All of the code for this course and the demos can be found in this Github repo:
+
+https://github.com/bradtraversy/50projects50days
