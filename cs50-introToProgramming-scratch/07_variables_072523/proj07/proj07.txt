@@ -1,0 +1,6 @@
+Project 7: Variables
+
+Your assignemnt is to create a game in Scratch that uses a variable to keep track of the player's score.
+
+Make sure you share your project publicly, as by clicking Share in Scratch's top-right corner
+so that others (such as the grading staff) can see your project.
