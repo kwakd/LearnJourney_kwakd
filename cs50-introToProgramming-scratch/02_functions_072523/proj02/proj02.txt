@@ -1,0 +1,9 @@
+Project 2: Functions
+
+Your assignment is to create a Scratch animation. Your project should include:
+	- At least one Motion block.
+	- At least one Looks block.
+	- At least one Sound block.
+
+Make sure you share your project publicly, as by clicking Share in Scratch's top-right corner
+so that others (such as the grading staff) can see your project.

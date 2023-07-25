@@ -1,0 +1,10 @@
+Project 4: Values
+
+Your assignment is to create an interactive Scratch Project where the user types in answers to questions. 
+Your project should include:
+	- The ask and wait block.
+	- The answer block.
+	- The join block.
+
+Make sure you share your project publicly, as by clicking Share in Scratch's top-right corner
+so that others (such as the grading staff) can see your project.

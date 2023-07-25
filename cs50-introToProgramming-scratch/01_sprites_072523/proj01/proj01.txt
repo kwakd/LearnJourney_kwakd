@@ -1,0 +1,13 @@
+Project 1: Sprites
+
+What to Do:
+1. Download and install the latest version of Chrome, if you don't have it already.
+2. Visit scratch.mit.edu and sign up for an account, if you don't already have one.
+3. Sign in to your Scratch account and click the "Create" button to create a new project.
+
+Your assignment is to create a scene in Scratch. Your scene should include:
+	- At least one additional backdrop (in addition to the default blank one)
+	- At least three different sprites
+
+Make sure you share your project publicly, as by clicking Share in Scratch's top-right corner
+so that others (such as the grading staff) can see your project.

@@ -1,0 +1,12 @@
+Project 5: Conditions
+
+Your assignment is to create an interactive Scratch Project that behaves differently depending on what
+choices the user makes. Your project should include:
+	(The below requirements are distinct. One is a single-branch conditional statement, one is a
+	multiple-branch conditional statement. Including only one of these two DOES NOT satisfy both
+	requirements. You must have both kinds of conditions in your project!)
+	- At least one if block.
+	- At least one if/else block.
+
+Make sure you share your project publicly, as by clicking Share in Scratch's top-right corner
+so that others (such as the grading staff) can see your project.

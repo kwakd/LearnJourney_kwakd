@@ -1,0 +1,10 @@
+Project 6: Loops
+
+Your assignment is to create a Scratch project where a sprite repeats some behavior multiple times.
+Your project should include:
+	(The below requirements are distinct. You must have both kinds of loops in your project!)
+	- At least one forever block.
+	- At least one repeat block.
+
+Make sure you share your project publicly, as by clicking Share in Scratch's top-right corner
+so that others (such as the grading staff) can see your project.
