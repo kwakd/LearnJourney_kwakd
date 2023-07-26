@@ -1,0 +1,16 @@
+Project 9: Building From Scratch
+
+Your assignemnt is to create a new Scratch Project that uses all of the ideas you've learned in the course.
+Your project should include all of the following:
+	- At least three different sprites. O
+	- At least three total backdrops. O
+	- At least one broadcast. O
+	- At least one clone. O
+	- At least one custom block. O
+	- At least one variable. O
+	- At least one loop. O 
+	- At least one condition. O 
+	- At least one event. O
+
+Make sure you share your project publicly, as by clicking Share in Scratch's top-right corner
+so that others (such as the grading staff) can see your project.
