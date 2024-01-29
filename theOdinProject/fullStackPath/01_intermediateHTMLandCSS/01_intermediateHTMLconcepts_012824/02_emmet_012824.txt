@@ -1,0 +1,22 @@
+LEARNING OUTCOMES
+- Use some of Emmet's most useful shortcuts.
+- Set up custom Emmet keybindings in VS Code.
+
+ASSIGNMENT
+1.
+"This" is a good video on Emmet. Go ahead and watch it up to 11:37 as it 
+demonstrates some content we haven’t covered yet. We’ll get there eventually.
+
+"This" : https://www.youtube.com/watch?v=V8vizNQKtx0
+
+2.
+Take a look at the "Emmet cheat sheet." You don’t have to memorize it, but it’s 
+good that you get familiar with the different ways it can be used.
+
+"Emmet cheat sheet" : https://docs.emmet.io/cheat-sheet/
+
+3.
+Go through the "Emmet documentation." Once again, no need to memorize everything 
+but it would be good if you played around with all the different possibilities.
+
+"Emmet documentation" : https://docs.emmet.io/

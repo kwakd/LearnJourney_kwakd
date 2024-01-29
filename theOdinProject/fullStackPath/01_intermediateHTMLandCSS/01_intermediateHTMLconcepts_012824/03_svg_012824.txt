@@ -1,0 +1,13 @@
+LEARNIUNG OUTCOMES
+- What SVGs, Vector Graphics, and XML are
+- How to create simple SVGs and add them to your websites
+- When to use SVGs, and when a different image format would 
+  be more appropriate
+
+WHAT ARE SVGS?
+- Often used for:
+	1. Icons
+	2. Graph/Charts
+	3. Large, Simple Images
+	4. Patterned backgrounds
+	5. Applying effects to other elements via SVG filters

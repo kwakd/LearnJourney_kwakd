@@ -1,0 +1,17 @@
+LEARNING OUTCOMES
+- Create advanced HTML tables
+
+ASSIGNMENTS
+1.
+Read these "Tables Basics" and "Tables Advanced" tutorials from MDN. 
+They should teach you all the syntax behind HTML tables. It’s pretty 
+straightforward. Make sure to code along!
+
+"Tables Basics" : https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics
+"Tables Advanced" : https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced
+
+2.
+Do this "Tables Assessment" from MDN. It’s good to put your newly learned 
+skills to practice!
+
+"Tables Assessment" : https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data
